@@ -27,3 +27,5 @@ func distributeCandies2(candies []int) int {
 	}
 	return len(sister)
 }
+
+// mapじゃなくてシンプルに[]boolを使っているパターンだともっと速い
